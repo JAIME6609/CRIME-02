@@ -1,0 +1,43 @@
+{
+  "chapter_title": "Responsible AI for Crime-Risk Prediction in Digital Marketing",
+  "configuration": {
+    "master_seed": 2026,
+    "n_zones": 36,
+    "n_weeks": 156,
+    "train_weeks": 108,
+    "calibration_weeks": 24,
+    "test_weeks": 24,
+    "high_risk_quantile": 0.72,
+    "conformal_alpha": 0.1,
+    "bootstrap_repetitions": 500,
+    "output_root": "results"
+  },
+  "feature_set": [
+    "engagement_volume_log",
+    "campaign_exposure",
+    "late_night_share",
+    "fraud_signal_rate",
+    "failed_payment_rate",
+    "verified_channel_share",
+    "economic_stress_index",
+    "public_event_intensity",
+    "lag_1_incidents",
+    "lag_4_incidents_mean",
+    "rolling_8_incidents_mean",
+    "week_sin",
+    "week_cos",
+    "trend"
+  ],
+  "best_model_selected_on_calibration_partition": "Logistic regression",
+  "protective_action_threshold": 0.1,
+  "conformal_quantile": 0.6052631578947368,
+  "test_roc_auc": 0.912137958063884,
+  "test_pr_auc": 0.7329691547850256,
+  "test_brier_score": 0.09437360793070486,
+  "test_ece": 0.028416116333793866,
+  "conformal_empirical_coverage": 0.9398148148148148,
+  "true_positive_rate_disparity": 0.11008325624421833,
+  "synthetic_data_statement": "All records are synthetic, aggregated zone-week observations created with master_seed=2026. They do not describe real people, places, crimes, or campaigns.",
+  "permitted_use": "Customer-protective marketing decision support with human oversight.",
+  "prohibited_use": "Individual profiling, service denial, price discrimination, neighborhood exclusion, or punitive law-enforcement action."
+}

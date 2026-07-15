@@ -1,0 +1,15 @@
+﻿Feature,Mean absolute SHAP value,Mean signed SHAP value
+rolling_8_incidents_mean,0.882552,-0.451210
+fraud_signal_rate,0.813413,-0.205493
+lag_4_incidents_mean,0.527334,-0.252349
+late_night_share,0.481067,-0.091603
+public_event_intensity,0.478008,-0.461194
+lag_1_incidents,0.448660,-0.232757
+failed_payment_rate,0.371752,-0.153190
+verified_channel_share,0.355515,-0.111282
+economic_stress_index,0.234862,-0.052291
+week_cos,0.231790,-0.073554
+engagement_volume_log,0.192638,-0.046431
+campaign_exposure,0.154949,-0.058121
+week_sin,0.131744,0.018067
+trend,0.098453,-0.090766

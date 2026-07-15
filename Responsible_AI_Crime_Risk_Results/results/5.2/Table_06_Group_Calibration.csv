@@ -1,0 +1,4 @@
+﻿Audit group,Sample size,Observed prevalence,Mean predicted risk,Brier score,Calibration gap
+Higher vulnerability,288,0.333333,0.301540,0.122296,0.031793
+Intermediate vulnerability,288,0.159722,0.143909,0.090119,0.015814
+Lower vulnerability,288,0.163194,0.165067,0.070706,0.001872

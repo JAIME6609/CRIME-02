@@ -1,0 +1,6 @@
+﻿Control,Observed value,Guardrail,Status
+Out-of-time ROC AUC,0.912138,>= 0.70,Pass
+Brier score,0.094374,<= 0.20,Pass
+Conformal coverage,0.939815,>= 0.87,Pass
+TPR disparity,0.110083,<= 0.15,Pass
+Permitted action scope,1.000000,Protective actions only,Pass

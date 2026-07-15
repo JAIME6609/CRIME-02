@@ -1,0 +1,4 @@
+﻿Partition,Rows,Weeks,Positive prevalence
+Training,3888,108,0.307356
+Calibration,864,24,0.487269
+Out-of-time test,864,24,0.218750

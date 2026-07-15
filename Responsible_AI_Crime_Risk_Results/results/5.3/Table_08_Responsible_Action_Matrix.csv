@@ -1,0 +1,5 @@
+﻿Risk state,Permitted action,Human review,Prohibited action
+Low risk; singleton conformal set,Standard secure communication,Routine sampling,No exclusion or reduced service
+Elevated risk; singleton conformal set,"Fraud warning, verified link, safer scheduling",Required for material campaign change,No individual profiling or punitive escalation
+Ambiguous conformal set,Abstain from automation; request analyst review,Mandatory,No automated high-impact decision
+Drift or fairness guardrail breached,Pause model-assisted action and investigate,Mandatory governance review,No continued unattended deployment
